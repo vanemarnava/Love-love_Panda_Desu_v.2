@@ -1,0 +1,140 @@
+
+/*
+#ff8964;
+#95e780;
+*/
+
+/*resetear navegador*/
+*
+{
+	box-sizing: border-box; /*This makes sure that the padding and border are included in the total width and height of the elements.*/
+	margin: 0;
+	padding: 0;
+}
+
+/*estilo de todo el documento*/
+body
+{
+  background-color: #ff8964;
+  font-family: 'Roboto', sans-serif;
+  color: #ffff;
+}
+
+/*estilo de la primera seccion de los titulos*/
+.containerTitle
+{
+  padding: 50px 1px 1px 1px;
+  height: 180px;
+  width: 100%;
+}
+
+/*estilo titulo*/
+.title
+{
+  font-size: 35px;
+  text-align: right;
+  font-weight: bold;
+  padding: 1px 40px;
+}
+
+/*Estilo subtitulo*/
+.subtitle
+{
+  text-align: right;
+  padding: 1px 40px;
+  margin: 20px 0;
+}
+
+/*imagen Panda 1*/
+.panda1
+{
+	width: 100%;
+	text-align: center;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  background-position: 30% 80%; /*mover imagen*/
+
+}
+
+/*Estilo segunda seccion*/
+.containerAbout
+{
+  background-color: #95e780;
+  padding: 50px 40px;
+  float: left;
+  margin: 25px 0;
+  width: 100%;
+}
+
+/*Estilo titulo*/
+.aboutTitle
+{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+/*Estilo caja de texto about*/
+.box
+{
+  background-color: #ff8964;
+}
+
+/*imagen Panda 2*/
+.panda2
+{
+  width: 100%;
+  text-align: center;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+/*Estilo seccion con fotos pequenas*/
+.picturesContainer
+{
+  background-color: #95e780;
+  padding: 60px 50px;
+  float: left;
+  margin: 25px 0;
+  width: 100%;
+}
+
+/*Estilo de titulo Pictures*/
+.picturesTitle
+{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/*Estilo de fotos pequenas*/
+.panditas 
+{
+  border: 10px solid #ffff;
+}
+
+/*imagen Panda 3*/
+.panda3
+{
+  width: 100%;
+  text-align: center;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+/*estilo footer*/
+.footer
+{  
+  float: right;
+}
+
+/*Estilo oracion footer*/
+.love-footer
+{
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 5px;
+  width: 100%;
+}
+
